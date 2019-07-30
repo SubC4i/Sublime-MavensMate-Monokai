@@ -538,18 +538,18 @@
 			}
 		},
 		{
-            "scope": "entity.name.variable.parameter.apex",
-            "settings": {
-                "foreground": "#FD971F",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": "entity.name.type.class.apex",
-            "settings": {
-                "foreground": "#A6E22E",
-                "fontStyle": ""
-            }
-        }
+			"scope": "entity.name.variable.parameter.apex",
+			"settings": {
+				"foreground": "#FD971F",
+				"fontStyle": "italic"
+			}
+		},
+			{
+			"scope": "entity.name.type.class.apex",
+			"settings": {
+				"foreground": "#A6E22E",
+				"fontStyle": ""
+			}
+		}
 	]
 }
