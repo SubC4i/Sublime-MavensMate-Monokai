@@ -1,0 +1,26 @@
+{
+    "name": "sublime-mavensmate-monokai-apex",
+    "displayName": "Sublime MavensMate Monokai for Apex",
+    "description": "Theme to replicate the workbench and syntax highlighting from Sublime Text 3 with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.",
+    "version": "0.0.1",
+    "publisher": "SubC4i",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sublime MavensMate Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sublime MavensMate Monokai-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SubC4i/Sublime-MavensMate-Monokai.git"
+      }
+}
