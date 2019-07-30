@@ -4,6 +4,7 @@
     "description": "Theme to replicate the workbench and syntax highlighting from Sublime Text 3 with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.",
     "version": "0.0.1",
     "publisher": "SubC4i",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.36.0"
     },
