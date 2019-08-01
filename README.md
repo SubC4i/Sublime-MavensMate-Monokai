@@ -4,7 +4,7 @@
 
 # Installation
 - This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/SubC4i.sublime-mavensmate-monokai-apex)
-- Alternatively, use keyword "subc4i" to search for this extension in VSCode.
+- Alternatively, use keyword "subc4i" to search for this extension in VSCode
 
 # Description
 Theme to replicate the workbench and syntax highlighting from Sublime Text 3 with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.
