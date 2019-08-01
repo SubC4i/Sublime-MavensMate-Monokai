@@ -550,6 +550,13 @@
 				"foreground": "#A6E22E",
 				"fontStyle": ""
 			}
+		},
+		{
+			"scope": "sharing.modifier.apex",
+			"settings": {
+				"foreground": "#f92672",
+				"fontStyle": ""
+			}
 		}
 	]
 }
