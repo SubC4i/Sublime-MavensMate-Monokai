@@ -11,6 +11,13 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "sublime monokai",
+        "monokai",
+        "mavensmate",
+        "apex",
+        "salesforce"
+    ],
     "contributes": {
         "themes": [
             {
