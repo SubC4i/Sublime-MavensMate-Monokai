@@ -557,6 +557,13 @@
 				"foreground": "#f92672",
 				"fontStyle": ""
 			}
+		},
+		{
+			"scope": "punctuation.squarebracket",
+			"settings": {
+				"foreground": "#E6DB74",
+				"fontStyle": ""
+			}
 		}
 	]
 }
