@@ -26,36 +26,34 @@
                 "path": "./themes/Sublime MavensMate Monokai-color-theme.json"
             }
         ],
-        "contributes": {
-            "configurationDefaults": {
-                "[apex]": {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[visualforce]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[plaintext]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[json]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[jsonc]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[xml]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                },
-                "[markdown]" : {
-                    "editor.wordWrap": "on",
-                    "editor.renderWhitespace": "selection"
-                }
+        "configurationDefaults": {
+            "[apex]": {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[visualforce]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[plaintext]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[json]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[jsonc]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[xml]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
+            },
+            "[markdown]" : {
+                "editor.wordWrap": "on",
+                "editor.renderWhitespace": "selection"
             }
         }
     },
