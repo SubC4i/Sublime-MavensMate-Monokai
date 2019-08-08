@@ -32,7 +32,7 @@
 		"editorLineNumber.foreground": "#90908a",
 		"editorSuggestWidget.background": "#272822",
 		"editorSuggestWidget.border": "#75715e",
-		"editorWhitespace.foreground": "#464741",
+		"editorWhitespace.foreground": "#ccccc7",
 		"editorWidget.background": "#1e1f1c",
 		"focusBorder": "#75715e",
 		"input.background": "#414339",
