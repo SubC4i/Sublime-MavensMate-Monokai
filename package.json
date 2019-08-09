@@ -2,7 +2,7 @@
     "name": "sublime-mavensmate-monokai-apex",
     "displayName": "Sublime MavensMate Monokai for Apex",
     "description": "Theme to replicate the workbench and syntax highlighting from Sublime Text 3 with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "publisher": "SubC4i",
     "icon": "images/icon.png",
     "engines": {
