@@ -22,6 +22,7 @@
 		"editor.lineHighlightBackground": "#3e3d32",
 		"editor.selectionBackground": "#135564",
 		"editor.selectionHighlightBackground": "#3d3a3a",
+		"editor.selectionHighlightBorder": "#ffffffaa",
 		"editorCursor.foreground": "#f8f8f0",
 		"editorGroup.border": "#414339",
 		"editorGroup.dropBackground": "#41433980",
