@@ -3,7 +3,7 @@
 	"type": "dark",
 	"colors": {
 		"activityBar.background": "#272822",
-		"activityBar.dropBackground": "#414339",
+		"activityBar.dropBorder": "#414339",
 		"activityBar.foreground": "#f8f8f2",
 		"badge.background": "#75715e",
 		"badge.foreground": "#f8f8f2",
@@ -91,7 +91,7 @@
 		"terminal.ansiWhite": "#e3e3dd",
 		"terminal.ansiYellow": "#b3b42b",
 		"titleBar.activeBackground": "#1e1f1c",
-		"widget.shadow": "#000000",
+		"widget.shadow": "#000000"
 	},
 	"tokenColors": [
 		{
