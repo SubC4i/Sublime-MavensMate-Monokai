@@ -15,7 +15,9 @@ Works with both production and sandbox instances. Replaces MavensMate IDE for Sa
 
 ## 2) Create Project
 - Open the Command Palette (press Ctrl+Shift+P on Windows) and run `SFDX: Create Project with Manifest`
+- Select `Standard` and press Enter
 - Type name for project (will also be folder name on hard drive) and press Enter
+- Select folder location (project files will be created in a new folder within the location you choose)
 
 ## 3) Authorize Salesforce Org
 - Open Command Palette and run `SFDX: Authorize an Org`
@@ -28,6 +30,8 @@ Works with both production and sandbox instances. Replaces MavensMate IDE for Sa
     - Easiest way to pull metadata where the wildcard (*) symbol is not allowed
     - Certain metadata must be populated in the package.xml with explicit names
     - Example: For Dashboards, you must list the name of every dashboard you want to retrieve in order for it to be pulled from the source org
+- Recommended metatdata types to include: `ApexClass, ApexComponent, ApexPage, ApexTrigger, AssignmentRules, AuraDefinitionBundle, CustomLabels, CustomMetadata, CustomObject, Dashboard, DuplicateRule, EmailTemplate, FlexiPage, Flow, FlowCategory, FlowDefinition, GlobalValueSet, HomePageComponent, HomePageLayout, Layout, Letterhead, LightningBolt, LightningComponentBundle, LightningExperienceTheme, MatchingRules, Report, Scontrol, SharingRules, StaticResource, Workflow`
+
     ### Sample `package.xml`:
     ~~~xml
     <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -74,7 +78,6 @@ Works with both production and sandbox instances. Replaces MavensMate IDE for Sa
         "**/bower_components": true,
         "**/.sfdx": true
     },
-    "eslint.nodePath": "c:\\Users\\name\\.vscode\\extensions\\salesforce.salesforcedx-vscode-lwc-46.7.0\\node_modules",
     "workbench.colorTheme": "Sublime MavensMate Monokai",
     "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
     "salesforcedx-vscode-core.show-cli-success-msg": false,
