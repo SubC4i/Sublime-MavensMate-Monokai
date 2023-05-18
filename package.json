@@ -1,8 +1,8 @@
 {
     "name": "sublime-mavensmate-monokai-apex",
-    "displayName": "Sublime MavensMate Monokai for Apex",
-    "description": "Theme to replicate the workbench and syntax highlighting from Sublime Text 3 with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.",
-    "version": "0.1.5",
+    "displayName": "SFDX Monokai Sublime",
+    "description": "Theme to replicate the workbench and syntax highlighting from Sublime Text with MavensMate when editing Apex code.  This is as close as possible with some subtle differences.  This theme references the Salesforce grammar (apex.tmLanguage) in the Salesforce Extension Pack for VSCode.",
+    "version": "1.0.0",
     "publisher": "SubC4i",
     "icon": "images/icon.png",
     "engines": {
@@ -12,80 +12,34 @@
         "Themes"
     ],
     "keywords": [
-        "sublime monokai",
+        "sublime",
         "monokai",
-        "mavensmate",
+        "sfdx",
         "apex",
         "salesforce"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "Sublime MavensMate Monokai",
+                "label": "SFDX Monokai Sublime",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Sublime MavensMate Monokai-color-theme.json"
             },
-	    {
-                "label": "Sublime MavensMate Monokai Dimmed",
+            {
+                "label": "SFDX Monokai Sublime Dimmed",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Sublime MavensMate Monokai-color-theme Dimmed.json"
             }
         ],
         "configurationDefaults": {
-            "[apex]": {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[visualforce]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[plaintext]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[json]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[jsonc]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[xml]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[markdown]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[html]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[css]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            },
-            "[javascript]" : {
-                "editor.wordWrap": "on",
-                "editor.renderWhitespace": "selection",
-                "editor.occurrencesHighlight": false
-            }
+            "editor.bracketPairColorization.enabled": false,
+            "editor.wordWrap": "on",
+            "editor.renderWhitespace": "selection",
+            "editor.occurrencesHighlight": false
         }
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SubC4i/Sublime-MavensMate-Monokai.git"
-    }
+      }
 }
