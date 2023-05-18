@@ -1,4 +1,4 @@
-# SFDX Monokai Sublime
+# Sublime MavensMate Monokai for Apex
 
 ![alt text](/images/SampleCode.png "Sample Apex Code")
 
