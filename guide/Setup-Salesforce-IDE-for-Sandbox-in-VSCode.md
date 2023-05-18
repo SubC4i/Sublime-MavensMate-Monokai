@@ -78,7 +78,7 @@ Works with both production and sandbox instances. Replaces MavensMate IDE for Sa
         "**/bower_components": true,
         "**/.sfdx": true
     },
-    "workbench.colorTheme": "SFDX Monokai Sublime",
+    "workbench.colorTheme": "Sublime MavensMate Monokai",
     "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
     "salesforcedx-vscode-core.show-cli-success-msg": false,
     "salesforcedx-vscode-core.retrieve-test-code-coverage": true
